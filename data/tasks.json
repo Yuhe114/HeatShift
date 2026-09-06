@@ -1,0 +1,65 @@
+[
+  {
+    "id": "T1",
+    "name": "Heavy outdoor lifting",
+    "type": "heavy_outdoor",
+    "environment": "outdoor",
+    "duration": 2,
+    "workers": [
+      "W1",
+      "W2",
+      "W3",
+      "W4"
+    ],
+    "deadline": "16:00",
+    "priority": "high",
+    "redeployment_with": [
+      "T3"
+    ]
+  },
+  {
+    "id": "T2",
+    "name": "Outdoor equipment installation",
+    "type": "moderate_outdoor",
+    "environment": "outdoor",
+    "duration": 2,
+    "workers": [
+      "W5",
+      "W6",
+      "W7"
+    ],
+    "deadline": "16:00",
+    "priority": "medium"
+  },
+  {
+    "id": "T3",
+    "name": "Indoor equipment inspection",
+    "type": "indoor",
+    "environment": "indoor",
+    "duration": 2,
+    "workers": [
+      "W8",
+      "W9",
+      "W10",
+      "W11"
+    ],
+    "deadline": "16:00",
+    "priority": "medium",
+    "redeployment_with": [
+      "T1"
+    ]
+  },
+  {
+    "id": "T4",
+    "name": "Material preparation",
+    "type": "light_indoor",
+    "environment": "indoor",
+    "duration": 1,
+    "workers": [
+      "W12",
+      "W13"
+    ],
+    "deadline": "17:00",
+    "priority": "low"
+  }
+]
