@@ -1,6 +1,6 @@
-# HeatShift
+# SOLEIL
 
-HeatShift is an agentic AI operations assistant designed to help supervisors adapt work schedules under heat-stress conditions.
+SOLEIL is an agentic AI operations assistant designed to help supervisors adapt work schedules under heat-stress conditions.
 
 ## Problem
 
@@ -15,7 +15,7 @@ A supervisor needs to answer:
 
 ## Solution
 
-HeatShift continuously monitors WBGT conditions and uses an agentic workflow to recommend safer operational plans.
+SOLEIL continuously monitors WBGT conditions and uses an agentic workflow to recommend safer operational plans.
 
 Core workflow:
 
