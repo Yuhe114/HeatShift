@@ -1,0 +1,90 @@
+{
+  "workday": {
+    "date": "2026-09-06",
+    "start": "08:00",
+    "end": "18:00"
+  },
+  "demo_mode": true,
+  "operational_time": "10:00",
+  "workplace": {
+    "wbgt_monitoring": true,
+    "adequate_rest_under_shade": true,
+    "hydration": true,
+    "emergency_response": true,
+    "heat_stress_training": true,
+    "cool_drinking_water": true,
+    "emergency_cooling_supplies": true,
+    "suitable_heat_protective_clothing": true
+  },
+  "wbgt_forecast": {
+    "is_demo_data": true,
+    "station": "Sentosa Palawan Green",
+    "hourly": {
+      "08:00": 29.2,
+      "09:00": 30.1,
+      "10:00": 31.4,
+      "11:00": 32.6,
+      "12:00": 33.4,
+      "13:00": 34.0,
+      "14:00": 34.2,
+      "15:00": 33.5,
+      "16:00": 32.7,
+      "17:00": 31.8,
+      "18:00": 30.9
+    }
+  },
+  "T1": {
+    "start": "10:00",
+    "end": "12:00",
+    "status": "approved",
+    "priority": "high",
+    "rest_intervals": [
+      {
+        "start": "10:30",
+        "end": "10:40",
+        "duration_minutes": 10,
+        "reason": "heat_rest"
+      },
+      {
+        "start": "11:30",
+        "end": "11:40",
+        "duration_minutes": 10,
+        "reason": "heat_rest"
+      }
+    ],
+    "rest_minutes_per_hour": 10,
+    "rest_is_continuous": true,
+    "rest_combined_across_hours": false,
+    "last_updated": "2026-09-06T13:25:52.746142"
+  },
+  "T2": {
+    "start": "11:00",
+    "end": "13:00",
+    "status": "scheduled",
+    "priority": "medium",
+    "rest_intervals": [],
+    "rest_minutes_per_hour": 0,
+    "rest_is_continuous": true,
+    "rest_combined_across_hours": false
+  },
+  "T3": {
+    "start": "13:00",
+    "end": "14:00",
+    "status": "scheduled",
+    "priority": "medium",
+    "rest_intervals": [],
+    "rest_minutes_per_hour": 0,
+    "rest_is_continuous": true,
+    "rest_combined_across_hours": false
+  },
+  "T4": {
+    "start": "14:00",
+    "end": "15:00",
+    "status": "scheduled",
+    "priority": "low",
+    "rest_intervals": [],
+    "rest_minutes_per_hour": 0,
+    "rest_is_continuous": true,
+    "rest_combined_across_hours": false
+  }
+}
